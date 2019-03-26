@@ -1,0 +1,14 @@
+name: nick
+age : 22
+password: 3353113843
+#等价于header :order
+header: '{cipher}6f252b94ecd2a3ecebe3b93e0c3d6e11b506e8e5cc4b7a02eac40ac05a1ea0d9'
+# header: order
+
+
+spring:
+  datasource:
+    jdbc-url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&serverTimezone=GMT%2B8&characterEncoding=utf-8
+    driverClassName: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
